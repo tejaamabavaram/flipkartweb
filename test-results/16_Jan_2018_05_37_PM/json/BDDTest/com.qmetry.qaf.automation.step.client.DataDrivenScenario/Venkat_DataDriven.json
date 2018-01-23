@@ -1,0 +1,2478 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userIsOnFlipkartHomepage",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.flipkart.com}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2277
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//button[@class='_2AkmmA _29YdH8'], using=xpath}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 57
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More",
+          "subLogs": [],
+          "duration": 39
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsProductFromCategory",
+      "args": [
+        "[${submenu}, Baby & Kids]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Baby & Kids'], using=css selector}"
+          ],
+          "result": "id: 0.49033170245371704-1",
+          "subLogs": [],
+          "duration": 48
+        },
+        {
+          "commandName": "mouseMoveTo",
+          "args": [
+            "{element=0.49033170245371704-1}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 49
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=a[title='Booties'], using=css selector}"
+          ],
+          "result": "[id: 0.49033170245371704-2]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Booties'], using=css selector}"
+          ],
+          "result": "id: 0.49033170245371704-2",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: a[title='Booties']",
+            "{\"id\":\"0.49033170245371704-2\"}"
+          ],
+          "result": "isElementDisplayed:false",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=a[title='Booties'], using=css selector}"
+          ],
+          "result": "[id: 0.49033170245371704-2]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Booties'], using=css selector}"
+          ],
+          "result": "id: 0.49033170245371704-2",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: a[title='Booties']",
+            "{\"id\":\"0.49033170245371704-2\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=a[title='Booties'], using=css selector}"
+          ],
+          "result": "id: 0.49033170245371704-2",
+          "subLogs": [],
+          "duration": 7
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: a[title='Booties']",
+            "{\"id\":\"0.49033170245371704-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 220
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldSeeProductResults",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3ycxrs'], using=css selector}"
+          ],
+          "result": "[]",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.49033170245371704-3, id: 0.49033170245371704-4, id: 0.49033170245371704-5, id: 0.49033170245371704-6, id: 0.49033170245371704-7, id: 0.49033170245371704-8, id: 0.49033170245371704-9, id: 0.49033170245371704-10, id: 0.49033170245371704-11, id: 0.49033170245371704-12, id: 0.49033170245371704-13, id: 0.49033170245371704-14, id: 0.49033170245371704-15, id: 0.49033170245371704-16, id: 0.49033170245371704-17, id: 0.49033170245371704-18, id: 0.49033170245371704-19, id: 0.49033170245371704-20, id: 0.49033170245371704-21, id: 0.49033170245371704-22, id: 0.49033170245371704-23, id: 0.49033170245371704-24, id: 0.49033170245371704-25, id: 0.49033170245371704-26, id: 0.49033170245371704-27, id: 0.49033170245371704-28, id: 0.49033170245371704-29, id: 0.49033170245371704-30, id: 0.49033170245371704-31, id: 0.49033170245371704-32, id: 0.49033170245371704-33, id: 0.49033170245371704-34, id: 0.49033170245371704-35, id: 0.49033170245371704-36, id: 0.49033170245371704-37, id: 0.49033170245371704-38, id: 0.49033170245371704-39, id: 0.49033170245371704-40, id: 0.49033170245371704-41, id: 0.49033170245371704-42]",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-3\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-43]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-3\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-43]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-43\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.49033170245371704-3, id: 0.49033170245371704-4, id: 0.49033170245371704-5, id: 0.49033170245371704-6, id: 0.49033170245371704-7, id: 0.49033170245371704-8, id: 0.49033170245371704-9, id: 0.49033170245371704-10, id: 0.49033170245371704-11, id: 0.49033170245371704-12, id: 0.49033170245371704-13, id: 0.49033170245371704-14, id: 0.49033170245371704-15, id: 0.49033170245371704-16, id: 0.49033170245371704-17, id: 0.49033170245371704-18, id: 0.49033170245371704-19, id: 0.49033170245371704-20, id: 0.49033170245371704-21, id: 0.49033170245371704-22, id: 0.49033170245371704-23, id: 0.49033170245371704-24, id: 0.49033170245371704-25, id: 0.49033170245371704-26, id: 0.49033170245371704-27, id: 0.49033170245371704-28, id: 0.49033170245371704-29, id: 0.49033170245371704-30, id: 0.49033170245371704-31, id: 0.49033170245371704-32, id: 0.49033170245371704-33, id: 0.49033170245371704-34, id: 0.49033170245371704-35, id: 0.49033170245371704-36, id: 0.49033170245371704-37, id: 0.49033170245371704-38, id: 0.49033170245371704-39, id: 0.49033170245371704-40, id: 0.49033170245371704-41, id: 0.49033170245371704-42]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.49033170245371704-3, id: 0.49033170245371704-4, id: 0.49033170245371704-5, id: 0.49033170245371704-6, id: 0.49033170245371704-7, id: 0.49033170245371704-8, id: 0.49033170245371704-9, id: 0.49033170245371704-10, id: 0.49033170245371704-11, id: 0.49033170245371704-12, id: 0.49033170245371704-13, id: 0.49033170245371704-14, id: 0.49033170245371704-15, id: 0.49033170245371704-16, id: 0.49033170245371704-17, id: 0.49033170245371704-18, id: 0.49033170245371704-19, id: 0.49033170245371704-20, id: 0.49033170245371704-21, id: 0.49033170245371704-22, id: 0.49033170245371704-23, id: 0.49033170245371704-24, id: 0.49033170245371704-25, id: 0.49033170245371704-26, id: 0.49033170245371704-27, id: 0.49033170245371704-28, id: 0.49033170245371704-29, id: 0.49033170245371704-30, id: 0.49033170245371704-31, id: 0.49033170245371704-32, id: 0.49033170245371704-33, id: 0.49033170245371704-34, id: 0.49033170245371704-35, id: 0.49033170245371704-36, id: 0.49033170245371704-37, id: 0.49033170245371704-38, id: 0.49033170245371704-39, id: 0.49033170245371704-40, id: 0.49033170245371704-41, id: 0.49033170245371704-42]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-3\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-43]",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-43\"}"
+          ],
+          "result": "getElementText:Neska Moda Rabbit Booties",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-3\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-44]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-44\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-4\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-45]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-45\"}"
+          ],
+          "result": "getElementText:Neska Moda Butterfly Booties",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-4\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-46]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-46\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-5\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-47]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-47\"}"
+          ],
+          "result": "getElementText:Neska Moda Butterfly Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-5\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-48]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-48\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-6\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-49]",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-49\"}"
+          ],
+          "result": "getElementText:Neska Moda Lace Booties",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-6\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-50]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-50\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-7\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-51]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-51\"}"
+          ],
+          "result": "getElementText:Neska Moda Lace Booties",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-7\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-52]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-52\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-8\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-53]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-53\"}"
+          ],
+          "result": "getElementText:Neska Moda Butterfly Booties",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-8\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-54]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-54\"}"
+          ],
+          "result": "getElementText:₹149",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-9\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-55]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-55\"}"
+          ],
+          "result": "getElementText:Neska Moda Frill Butterfly Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-9\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-56]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-56\"}"
+          ],
+          "result": "getElementText:₹149",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-10\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-57]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-57\"}"
+          ],
+          "result": "getElementText:Neska Moda Butterfly Booties",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-10\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-58]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-58\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-11\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-59]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-59\"}"
+          ],
+          "result": "getElementText:Neska Moda Sports Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-11\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-60]",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-60\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-12\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-61]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-61\"}"
+          ],
+          "result": "getElementText:Neska Moda Lace Booties",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-12\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-62]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-62\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-13\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-63]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-63\"}"
+          ],
+          "result": "getElementText:Neska Moda Rabbit Booties",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-13\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-64]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-64\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-14\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-65]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-65\"}"
+          ],
+          "result": "getElementText:Neska Moda Sports Booties",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-14\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-66]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-66\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-15\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-67]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-67\"}"
+          ],
+          "result": "getElementText:Neska Moda Butterfly Booties",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-15\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-68]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-68\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-16\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-69]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-69\"}"
+          ],
+          "result": "getElementText:EIO Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-16\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-70]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-70\"}"
+          ],
+          "result": "getElementText:₹250",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-17\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-71]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-71\"}"
+          ],
+          "result": "getElementText:Neska Moda Lace Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-17\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-72]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-72\"}"
+          ],
+          "result": "getElementText:₹149",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-18\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-73]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-73\"}"
+          ],
+          "result": "getElementText:Neska Moda Sports Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-18\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-74]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-74\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-19\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-75]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-75\"}"
+          ],
+          "result": "getElementText:EIO Booties",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-19\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-76]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-76\"}"
+          ],
+          "result": "getElementText:₹290",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-20\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-77]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-77\"}"
+          ],
+          "result": "getElementText:Moms Pet Booties",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-20\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-78]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-78\"}"
+          ],
+          "result": "getElementText:₹280",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-21\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-79]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-79\"}"
+          ],
+          "result": "getElementText:Neska Moda Rabbit Booties",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-21\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-80]",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-80\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-22\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-81]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-81\"}"
+          ],
+          "result": "getElementText:Neska Moda Frill Butterfly Booties",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-22\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-82]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-82\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-23\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-83]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-83\"}"
+          ],
+          "result": "getElementText:Neska Moda Sports Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-23\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-84]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-84\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-24\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-85]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-85\"}"
+          ],
+          "result": "getElementText:Love Crochet Art Booties",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-24\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-86]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-86\"}"
+          ],
+          "result": "getElementText:₹249",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-25\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-87]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-87\"}"
+          ],
+          "result": "getElementText:Love Crochet Art Booties",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-25\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-88]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-88\"}"
+          ],
+          "result": "getElementText:₹249",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-26\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-89]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-89\"}"
+          ],
+          "result": "getElementText:Welwear Booties",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-26\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-90]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-90\"}"
+          ],
+          "result": "getElementText:₹196",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-27\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-91]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-91\"}"
+          ],
+          "result": "getElementText:Neska Moda Rabbit Booties",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-27\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-92]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-92\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-28\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-93]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-93\"}"
+          ],
+          "result": "getElementText:Moms Pet Booties",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-28\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-94]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-94\"}"
+          ],
+          "result": "getElementText:₹265",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-29\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-95]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-95\"}"
+          ],
+          "result": "getElementText:Love Crochet Art Booties",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-29\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-96]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-96\"}"
+          ],
+          "result": "getElementText:₹249",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-30\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-97]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-97\"}"
+          ],
+          "result": "getElementText:Neska Moda Sports Booties",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-30\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-98]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-98\"}"
+          ],
+          "result": "getElementText:₹149",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-31\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-99]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-99\"}"
+          ],
+          "result": "getElementText:Neska Moda Butterfly Booties",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-31\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-100]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-100\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-32\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-101]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-101\"}"
+          ],
+          "result": "getElementText:Neska Moda Butterfly Booties",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-32\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-102]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-102\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-33\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-103]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-103\"}"
+          ],
+          "result": "getElementText:Neska Moda Frill Butterfly Booties",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-33\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-104]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-104\"}"
+          ],
+          "result": "getElementText:₹149",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-34\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-105]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-105\"}"
+          ],
+          "result": "getElementText:Neska Moda Frill Butterfly Booties",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-34\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-106]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-106\"}"
+          ],
+          "result": "getElementText:₹149",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-35\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-107]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-107\"}"
+          ],
+          "result": "getElementText:Love Crochet Art Booties",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-35\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-108]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-108\"}"
+          ],
+          "result": "getElementText:₹249",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-36\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-109]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-109\"}"
+          ],
+          "result": "getElementText:FCS Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-36\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-110]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-110\"}"
+          ],
+          "result": "getElementText:₹349",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-37\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-111]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-111\"}"
+          ],
+          "result": "getElementText:Neska Moda Lace Booties",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-37\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-112]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-112\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-38\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-113]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-113\"}"
+          ],
+          "result": "getElementText:Neska Moda Studd Booties",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-38\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-114]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-114\"}"
+          ],
+          "result": "getElementText:₹149",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-39\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-115]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-115\"}"
+          ],
+          "result": "getElementText:Neska Moda Rabbit Booties",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-39\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-116]",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-116\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-40\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-117]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-117\"}"
+          ],
+          "result": "getElementText:MFJ Maroon Baby Booties",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-40\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-118]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-118\"}"
+          ],
+          "result": "getElementText:₹299",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-41\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-119]",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-119\"}"
+          ],
+          "result": "getElementText:Neska Moda Lace Booties",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-41\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-120]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-120\"}"
+          ],
+          "result": "getElementText:₹169",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-42\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-121]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-121\"}"
+          ],
+          "result": "getElementText:Morisons Baby Dreams Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-42\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-122]",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-122\"}"
+          ],
+          "result": "getElementText:₹254",
+          "subLogs": [],
+          "duration": 20
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSetsAndPrice",
+      "args": [
+        "[${minprice}, ${maxpice}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//select[@class='a_eCSK'])[1], using=xpath}"
+          ],
+          "result": "id: 0.49033170245371704-123",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: (//select[@class='a_eCSK'])[1]",
+            "{\"id\":\"0.49033170245371704-123\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//select[@class='a_eCSK'])[1], using=xpath}"
+          ],
+          "result": "id: 0.49033170245371704-123",
+          "subLogs": [],
+          "duration": 8
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: (//select[@class='a_eCSK'])[1]",
+            "{\"name\":\"multiple\",\"id\":\"0.49033170245371704-123\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//select[@class='a_eCSK'])[1], using=xpath}"
+          ],
+          "result": "id: 0.49033170245371704-123",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: (//select[@class='a_eCSK'])[1]",
+            "{\"using\":\"xpath\",\"id\":\"0.49033170245371704-123\",\"value\":\".//option[@value = \\\"200\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-124]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 0.49033170245371704-124",
+            "{\"id\":\"0.49033170245371704-124\"}"
+          ],
+          "result": "isElementSelected:false",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: 0.49033170245371704-124",
+            "{\"id\":\"0.49033170245371704-124\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 117
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//select[@class='a_eCSK'])[2], using=xpath}"
+          ],
+          "result": "id: 0.49033170245371704-125",
+          "subLogs": [],
+          "duration": 103
+        },
+        {
+          "commandName": "getElementTagName",
+          "args": [
+            "By.xpath: (//select[@class='a_eCSK'])[2]",
+            "{\"id\":\"0.49033170245371704-125\"}"
+          ],
+          "result": "getElementTagName:select",
+          "subLogs": [],
+          "duration": 151
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//select[@class='a_eCSK'])[2], using=xpath}"
+          ],
+          "result": "id: 0.49033170245371704-125",
+          "subLogs": [],
+          "duration": 32
+        },
+        {
+          "commandName": "getElementAttribute",
+          "args": [
+            "By.xpath: (//select[@class='a_eCSK'])[2]",
+            "{\"name\":\"multiple\",\"id\":\"0.49033170245371704-125\"}"
+          ],
+          "result": "getElementAttribute:null",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=(//select[@class='a_eCSK'])[2], using=xpath}"
+          ],
+          "result": "id: 0.49033170245371704-125",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "By.xpath: (//select[@class='a_eCSK'])[2]",
+            "{\"using\":\"xpath\",\"id\":\"0.49033170245371704-125\",\"value\":\".//option[@value = \\\"400\\\"]\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-126]",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "isElementSelected",
+          "args": [
+            "id: 0.49033170245371704-126",
+            "{\"id\":\"0.49033170245371704-126\"}"
+          ],
+          "result": "isElementSelected:false",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "id: 0.49033170245371704-126",
+            "{\"id\":\"0.49033170245371704-126\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 108
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSeletsPrice",
+      "args": [
+        "[${sortby}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//li[@class='_2Ylh8t'], using=xpath}"
+          ],
+          "result": "[id: 0.49033170245371704-127, id: 0.49033170245371704-128, id: 0.49033170245371704-129]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//li[@class='_2Ylh8t'], using=xpath}"
+          ],
+          "result": "id: 0.49033170245371704-127",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.xpath: //li[@class='_2Ylh8t']",
+            "{\"id\":\"0.49033170245371704-127\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//li[@class='_2Ylh8t'], using=xpath}"
+          ],
+          "result": "id: 0.49033170245371704-127",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //li[@class='_2Ylh8t']",
+            "{\"id\":\"0.49033170245371704-127\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 130
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldSeeOnlyProductLessThanMaxValue",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectProductFromProductResults",
+      "args": [
+        "[${productnum}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.49033170245371704-130, id: 0.49033170245371704-131, id: 0.49033170245371704-132, id: 0.49033170245371704-133, id: 0.49033170245371704-134, id: 0.49033170245371704-135, id: 0.49033170245371704-136, id: 0.49033170245371704-137, id: 0.49033170245371704-138, id: 0.49033170245371704-139, id: 0.49033170245371704-140, id: 0.49033170245371704-141, id: 0.49033170245371704-142, id: 0.49033170245371704-143, id: 0.49033170245371704-144, id: 0.49033170245371704-145, id: 0.49033170245371704-146, id: 0.49033170245371704-147, id: 0.49033170245371704-148, id: 0.49033170245371704-149, id: 0.49033170245371704-150, id: 0.49033170245371704-151, id: 0.49033170245371704-152, id: 0.49033170245371704-153, id: 0.49033170245371704-154, id: 0.49033170245371704-155, id: 0.49033170245371704-156, id: 0.49033170245371704-157, id: 0.49033170245371704-158, id: 0.49033170245371704-159, id: 0.49033170245371704-160, id: 0.49033170245371704-161, id: 0.49033170245371704-162, id: 0.49033170245371704-163, id: 0.49033170245371704-164, id: 0.49033170245371704-165, id: 0.49033170245371704-166, id: 0.49033170245371704-167, id: 0.49033170245371704-168, id: 0.49033170245371704-169]",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-132\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-170]",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-170\"}"
+          ],
+          "result": "getElementText:Moms Pet Booties",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.49033170245371704-130, id: 0.49033170245371704-131, id: 0.49033170245371704-132, id: 0.49033170245371704-133, id: 0.49033170245371704-134, id: 0.49033170245371704-135, id: 0.49033170245371704-136, id: 0.49033170245371704-137, id: 0.49033170245371704-138, id: 0.49033170245371704-139, id: 0.49033170245371704-140, id: 0.49033170245371704-141, id: 0.49033170245371704-142, id: 0.49033170245371704-143, id: 0.49033170245371704-144, id: 0.49033170245371704-145, id: 0.49033170245371704-146, id: 0.49033170245371704-147, id: 0.49033170245371704-148, id: 0.49033170245371704-149, id: 0.49033170245371704-150, id: 0.49033170245371704-151, id: 0.49033170245371704-152, id: 0.49033170245371704-153, id: 0.49033170245371704-154, id: 0.49033170245371704-155, id: 0.49033170245371704-156, id: 0.49033170245371704-157, id: 0.49033170245371704-158, id: 0.49033170245371704-159, id: 0.49033170245371704-160, id: 0.49033170245371704-161, id: 0.49033170245371704-162, id: 0.49033170245371704-163, id: 0.49033170245371704-164, id: 0.49033170245371704-165, id: 0.49033170245371704-166, id: 0.49033170245371704-167, id: 0.49033170245371704-168, id: 0.49033170245371704-169]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-132\",\"value\":\"div[class='_1vC4OE']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-171]",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "Using any of[css=div[class='_1vC4OE'], css=div[class='I8hxu4']]",
+            "{\"id\":\"0.49033170245371704-171\"}"
+          ],
+          "result": "getElementText:₹280",
+          "subLogs": [],
+          "duration": 29
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=div[class='_3liAhj'], using=css selector}"
+          ],
+          "result": "[id: 0.49033170245371704-130, id: 0.49033170245371704-131, id: 0.49033170245371704-132, id: 0.49033170245371704-133, id: 0.49033170245371704-134, id: 0.49033170245371704-135, id: 0.49033170245371704-136, id: 0.49033170245371704-137, id: 0.49033170245371704-138, id: 0.49033170245371704-139, id: 0.49033170245371704-140, id: 0.49033170245371704-141, id: 0.49033170245371704-142, id: 0.49033170245371704-143, id: 0.49033170245371704-144, id: 0.49033170245371704-145, id: 0.49033170245371704-146, id: 0.49033170245371704-147, id: 0.49033170245371704-148, id: 0.49033170245371704-149, id: 0.49033170245371704-150, id: 0.49033170245371704-151, id: 0.49033170245371704-152, id: 0.49033170245371704-153, id: 0.49033170245371704-154, id: 0.49033170245371704-155, id: 0.49033170245371704-156, id: 0.49033170245371704-157, id: 0.49033170245371704-158, id: 0.49033170245371704-159, id: 0.49033170245371704-160, id: 0.49033170245371704-161, id: 0.49033170245371704-162, id: 0.49033170245371704-163, id: 0.49033170245371704-164, id: 0.49033170245371704-165, id: 0.49033170245371704-166, id: 0.49033170245371704-167, id: 0.49033170245371704-168, id: 0.49033170245371704-169]",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElements",
+          "args": [
+            "Using any of[css=div[class='_3liAhj'], css=div[class='_3ycxrs']]",
+            "{\"using\":\"css selector\",\"id\":\"0.49033170245371704-132\",\"value\":\"a[class='_2cLu-l']\"}"
+          ],
+          "result": "findChildElements:[id: 0.49033170245371704-170]",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "Using any of[css=a[class='_2cLu-l'], css=div[class='_1Ox9a7']]",
+            "{\"id\":\"0.49033170245371704-170\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 179
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userShouldSeeProductDetailsMatchingCorrectly",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "getWindowHandles",
+          "args": [
+            "{}"
+          ],
+          "result": "[CDwindow-(A00029CD3123647E2CF33102F812748E), CDwindow-(2F779F5DE7FA674E94791C3AB3228307)]",
+          "subLogs": [],
+          "duration": 6
+        },
+        {
+          "commandName": "getWindowHandles",
+          "args": [
+            "{}"
+          ],
+          "result": "[CDwindow-(A00029CD3123647E2CF33102F812748E), CDwindow-(2F779F5DE7FA674E94791C3AB3228307)]",
+          "subLogs": [],
+          "duration": 5
+        },
+        {
+          "commandName": "getWindowHandles",
+          "args": [
+            "{}"
+          ],
+          "result": "[CDwindow-(A00029CD3123647E2CF33102F812748E), CDwindow-(2F779F5DE7FA674E94791C3AB3228307)]",
+          "subLogs": [],
+          "duration": 4
+        },
+        {
+          "commandName": "switchToWindow",
+          "args": [
+            "{name=CDwindow-(A00029CD3123647E2CF33102F812748E)}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 504
+        },
+        {
+          "commandName": "switchToWindow",
+          "args": [
+            "{name=CDwindow-(2F779F5DE7FA674E94791C3AB3228307)}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=h1[class='_3eAQiD'], using=css selector}"
+          ],
+          "result": "[id: 0.2663045118868248-1]",
+          "subLogs": [],
+          "duration": 1242
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1[class='_3eAQiD'], using=css selector}"
+          ],
+          "result": "id: 0.2663045118868248-1",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "isElementDisplayed",
+          "args": [
+            "By.cssSelector: h1[class='_3eAQiD']",
+            "{\"id\":\"0.2663045118868248-1\"}"
+          ],
+          "result": "isElementDisplayed:true",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=h1[class='_3eAQiD'], using=css selector}"
+          ],
+          "result": "id: 0.2663045118868248-1",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: h1[class='_3eAQiD']",
+            "{\"id\":\"0.2663045118868248-1\"}"
+          ],
+          "result": "getElementText:Moms Pet Booties  (Toe to Heel Length - 9 cm Multicolor)",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[class='_1vC4OE _37U4_g'], using=css selector}"
+          ],
+          "result": "id: 0.2663045118868248-2",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: div[class='_1vC4OE _37U4_g']",
+            "{\"id\":\"0.2663045118868248-2\"}"
+          ],
+          "result": "getElementText:₹280",
+          "subLogs": [],
+          "duration": 18
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userCheckForTheDelivery",
+      "args": [
+        "[${pincode}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=input[class='_3X4tVa'], using=css selector}"
+          ],
+          "result": "id: 0.2663045118868248-3",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: input[class='_3X4tVa']",
+            "{\"id\":\"0.2663045118868248-3\",\"value\":[\"560064\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 664
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "userSelectsAddToCart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=button[class='_2AkmmA _2Npkh4 _2MWPVK'], using=css selector}"
+          ],
+          "result": "[id: 0.2663045118868248-4]",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "Using any of[css=button[class='_2AkmmA _2Npkh4 _2MWPVK'], css=button[class='_2AkmmA _2Npkh4 _2MWPVK RpigiU']]",
+            "{\"id\":\"0.2663045118868248-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 87
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "productHasBeenAddedToTheCart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=div[class='_3aZm8l'], using=css selector}"
+          ],
+          "result": "id: 0.2663045118868248-5",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: div[class='_3aZm8l']",
+            "{\"id\":\"0.2663045118868248-5\"}"
+          ],
+          "result": "getElementText:Delivery in 4-5 days: ₹65",
+          "subLogs": [],
+          "duration": 21
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user is on flipkart homepage",
+      "type": "TestStepPass",
+      "duration": 2378,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "FlipKartHomePage verification\nExpected: a string containing \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"\n     Actual: was \"Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_05_37_PM/img/Venkata_FlipkartOrderFllow_r2pbn5plh7k155234.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user selects product Booties from 'Baby & Kids' category",
+      "type": "TestStepPass",
+      "duration": 1426,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should see product results",
+      "type": "TestStepPass",
+      "duration": 4438,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;40&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_05_37_PM/img/Venkat_DataDriven_1o0vyafgii1rx55235.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user sets 200 and 400 price",
+      "type": "TestStepPass",
+      "duration": 659,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selets price Price -- High to Low",
+      "type": "TestStepPass",
+      "duration": 2207,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should see only product less than max value",
+      "type": "TestStepPass",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user select 2 product from product results",
+      "type": "TestStepPass",
+      "duration": 3359,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user should see product details matching correctly",
+      "type": "TestStepPass",
+      "duration": 3345,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a string containing \"Moms Pet Booties\"\n     Actual: was \"Moms Pet Booties  (Toe to Heel Length - 9 cm Multicolor)\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_05_37_PM/img/Venkat_DataDriven_187zwaqlq93gy55236.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"₹280\"\n     Actual: was \"₹280\"",
+          "type": "Pass",
+          "screenshot": "test-results/16_Jan_2018_05_37_PM/img/Venkat_DataDriven_4ggdvxw0glsy55237.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user check for the delivery 560064",
+      "type": "TestStepPass",
+      "duration": 686,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user selects add to cart",
+      "type": "TestStepPass",
+      "duration": 5114,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then product has been added to the cart",
+      "type": "TestStepPass",
+      "duration": 38,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

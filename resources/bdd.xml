@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+<venkat>
+	<submenu>Booties</submenu>
+	<minprice>200</minprice>
+	<maxpice>400</maxpice>
+	<sortby>Price -- High to Low</sortby>
+	<productnum>2</productnum>
+	<pincode>560064</pincode>
+</venkat>
+
+<venkat>
+	<submenu>Sport Shoes</submenu>
+	<minprice>400</minprice>
+	<maxpice>600</maxpice>
+	<sortby>Price -- High to Low</sortby>
+	<productnum>2</productnum>
+	<pincode>560064</pincode>
+</venkat>
+</product>

@@ -1,0 +1,9 @@
+com\web_flipkart\components\BootiesProductComponents.class
+com\web_flipkart\beans\BeanProductInformation.class
+com\web_flipkart\pages\BootiesresultsTestPage.class
+com\web_flipkart\pages\BootiesdetailsTestPage.class
+com\web_flipkart\utilities\CommonUtilities.class
+com\web_flipkart\pages\CartTestPage.class
+com\web_flipkart\steps\FlipkartItemOrderSteps.class
+com\web_flipkart\StepsBackLog.class
+com\web_flipkart\pages\HomeTestPage1.class

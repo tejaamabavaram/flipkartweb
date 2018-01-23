@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 08 10:38:05 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>35 seconds (35887 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.web_flipkart.steps.FlipkartItemOrderSteps.testItemOrderSteps()'><b>testItemOrderSteps</b><br>Test class: com.web_flipkart.steps.FlipkartItemOrderSteps<br/>
+<a href="#Output-1444440224" onClick='toggleBox("Output-1444440224", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1444440224" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1444440224">
+<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/testItemOrderSteps_kp3825kbs2y426803.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="../img/testItemOrderSteps_18asrw13sgxpk26804.png" target="_blank">[View Screenshot]</a> </div><div  class="fail"><span class="fail-label">F </span>
+Expected: a string containing "Sonpra Baby Premium Cotton Face Booties (0-6 Months) Bo..."
+     Actual: was "Love Crochet Art Booties  (Toe to Heel Length - 7 cm Green)" <a href="../img/testItemOrderSteps_ot2epqrsltiv26805.png" target="_blank">[View Screenshot]</a> </div><div  class="fail"><span class="fail-label">F </span>
+Expected: a string containing "₹350"
+     Actual: was "₹227" <a href="../img/testItemOrderSteps_zr3ai64bt92126806.png" target="_blank">[View Screenshot]</a> </div></div><br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.web_flipkart.steps.FlipkartItemOrderSteps@7fc2413d</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+SCENARIO: Venkat_DataDriven
+META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"],"key":"venkat"}
+	
+	Given user is on flipkart homepage
+	When user selects product ${submenu} from 'Baby & Kids' category
+	Then user should see product results
+	When user sets ${minprice} and ${maxpice} price
+	And user selets price ${sortby}
+	Then user should see only product less than max value
+	When user select ${productnum} product from product results
+	Then user should see product details matching correctly
+	When user check for the delivery ${pincode}
+	And user selects add to cart
+	Then product has been added to the cart
+	
+END
+

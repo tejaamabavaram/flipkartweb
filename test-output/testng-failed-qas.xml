@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+  <parameter name="scenario.file.loc" value="scenarios/Venkat_FlipkartOrderFlow.bdd"/>
+  <test name="BDD Test">
+    <method-selectors>
+      <method-selector>
+        <script language="beanshell">
+          <![CDATA[testngMethod.getMethodName().equalsIgnoreCase("Venkat_DataDriven")]]>
+        </script>
+      </method-selector>
+    </method-selectors>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"/>
+    </classes>
+  </test> <!-- BDD Test -->
+</suite> <!-- web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->

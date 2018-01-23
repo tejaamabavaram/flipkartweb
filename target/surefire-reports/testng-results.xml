@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/testItemOrderSteps_1fba3y2xxo7z130899.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="../img/testItemOrderSteps_1du78bl2k29yg30900.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Cross Knitt Booties"
+     Actual: was "Cross Knitt Booties  (Toe to Heel Length - 12 cm Yellow)" <a href="../img/testItemOrderSteps_11s23lrqemag530901.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹239"
+     Actual: was "₹239" <a href="../img/testItemOrderSteps_v17o23pj73w430902.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31013" started-at="2018-01-23T11:28:13Z" finished-at="2018-01-23T11:28:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31013" started-at="2018-01-23T11:28:13Z" finished-at="2018-01-23T11:28:44Z">
+      <class name="com.web_flipkart.steps.FlipkartItemOrderSteps">
+        <test-method status="PASS" signature="testItemOrderSteps()[pri:0, instance:com.web_flipkart.steps.FlipkartItemOrderSteps@4f9a3314]" name="testItemOrderSteps" duration-ms="30960" started-at="2018-01-23T16:58:13Z" finished-at="2018-01-23T16:58:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/testItemOrderSteps_1fba3y2xxo7z130899.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="../img/testItemOrderSteps_1du78bl2k29yg30900.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Cross Knitt Booties"
+     Actual: was "Cross Knitt Booties  (Toe to Heel Length - 12 cm Yellow)" <a href="../img/testItemOrderSteps_11s23lrqemag530901.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹239"
+     Actual: was "₹239" <a href="../img/testItemOrderSteps_v17o23pj73w430902.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testItemOrderSteps -->
+      </class> <!-- com.web_flipkart.steps.FlipkartItemOrderSteps -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

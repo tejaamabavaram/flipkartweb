@@ -1,0 +1,3 @@
+Homepage.btn.closepopupbutton = {\"locator\":\"xpath=//button[@class='_2AkmmA _29YdH8']\",\"desc\":\"close pop up button\"}
+Homepage.link.category = {\"locator\":\"css=a[title='%s']\",\"desc\":\"flipkart home page category\"}
+Homepage.link.subcategory = {\"locator\":\"css=a[title='%s']\",\"desc\":\"flipkart home page sub category\"}

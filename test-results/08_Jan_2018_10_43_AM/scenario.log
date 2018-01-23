@@ -1,0 +1,59 @@
+10:43:12 scenario.file.loc[Ljava.lang.String;@5db250b4
+10:43:12 loading BDD file: scenarios/Venkat_FlipkartOrderFlow.bdd
+10:43:12 total test found: 2
+10:43:12 
+
+Executing scenario: Venkata_FlipkartOrderFllow - end to end
+10:43:12 pkg: com.qmetry.qaf.automation.step
+10:43:12 pkg: com.web_flipkart
+10:43:12 Found duplicate step to load [] with [lower] prority then []
+10:43:12 Invoking Teststep: Given user is on flipkart homepage
+10:43:22 Completed Teststep: Given user is on flipkart homepage
+10:43:22 Invoking Teststep: When user selects product 'Booties' from 'Baby & Kids' category with arguments: [Booties, Baby & Kids]
+10:43:24 Completed Teststep: When user selects product 'Booties' from 'Baby & Kids' category with arguments: [Booties, Baby & Kids]
+10:43:24 Invoking Teststep: Then user should see product results
+10:43:29 Completed Teststep: Then user should see product results
+10:43:29 Invoking Teststep: When user sets '200' and '400' price with arguments: [200, 400]
+10:43:30 Completed Teststep: When user sets '200' and '400' price with arguments: [200, 400]
+10:43:30 Invoking Teststep: And user selets price 'Price -- High to Low' with arguments: [Price -- High to Low]
+10:43:34 Completed Teststep: And user selets price 'Price -- High to Low' with arguments: [Price -- High to Low]
+10:43:34 Invoking Teststep: Then user should see only product less than max value
+10:43:34 Completed Teststep: Then user should see only product less than max value
+10:43:34 Invoking Teststep: When user select '0' product from product results with arguments: [0]
+10:43:37 Completed Teststep: When user select '0' product from product results with arguments: [0]
+10:43:37 Invoking Teststep: Then user should see product details matching correctly
+10:43:39 Completed Teststep: Then user should see product details matching correctly
+10:43:39 Invoking Teststep: When user check for the delivery '560064' with arguments: [560064]
+10:43:39 Completed Teststep: When user check for the delivery '560064' with arguments: [560064]
+10:43:39 Invoking Teststep: And user selects add to cart
+10:43:44 Completed Teststep: And user selects add to cart
+10:43:44 Invoking Teststep: Then product has been added to the cart
+10:43:44 Completed Teststep: Then product has been added to the cart
+10:43:44 Competed scenario: Venkata_FlipkartOrderFllow with status SUCESS
+10:43:44 
+
+Executing scenario: Venkat_DataDriven - end to end
+10:43:44 Test Data{submenu=Booties, minprice=200, maxpice=400, sortby=Price -- High to Low, productnum=2, pincode=560064}
+10:43:44 Invoking Teststep: Given user is on flipkart homepage
+10:43:46 Completed Teststep: Given user is on flipkart homepage
+10:43:46 Invoking Teststep: When user selects product ${submenu} from 'Baby & Kids' category with arguments: [${submenu}, Baby & Kids]
+10:43:48 Completed Teststep: When user selects product Booties from 'Baby & Kids' category with arguments: [${submenu}, Baby & Kids]
+10:43:48 Invoking Teststep: Then user should see product results
+10:43:52 Completed Teststep: Then user should see product results
+10:43:52 Invoking Teststep: When user sets ${minprice} and ${maxpice} price with arguments: [${minprice}, ${maxpice}]
+10:43:52 Completed Teststep: When user sets 200 and 400 price with arguments: [${minprice}, ${maxpice}]
+10:43:52 Invoking Teststep: And user selets price ${sortby} with arguments: [${sortby}]
+10:43:55 Completed Teststep: And user selets price Price -- High to Low with arguments: [${sortby}]
+10:43:55 Invoking Teststep: Then user should see only product less than max value
+10:43:55 Completed Teststep: Then user should see only product less than max value
+10:43:55 Invoking Teststep: When user select ${productnum} product from product results with arguments: [${productnum}]
+10:43:58 Completed Teststep: When user select 2 product from product results with arguments: [${productnum}]
+10:43:58 Invoking Teststep: Then user should see product details matching correctly
+10:44:00 Completed Teststep: Then user should see product details matching correctly
+10:44:00 Invoking Teststep: When user check for the delivery ${pincode} with arguments: [${pincode}]
+10:44:00 Completed Teststep: When user check for the delivery 560064 with arguments: [${pincode}]
+10:44:00 Invoking Teststep: And user selects add to cart
+10:44:05 Completed Teststep: And user selects add to cart
+10:44:05 Invoking Teststep: Then product has been added to the cart
+10:44:05 Completed Teststep: Then product has been added to the cart
+10:44:05 Competed scenario: Venkat_DataDriven with status SUCESS

@@ -1,0 +1,64 @@
+driver.name=appiumDriver
+appium.additional.capabilities={'browser_name':'','deviceName':'emulator-5554','platformName':'Android','automationName':'appium','appPackage':'com.jabong.android','appActivity':'com.jabong.android.view.activity.tooltip.HomePageToolTipActivity','javascriptEnabled':'true', 'newCommandTimeout':'120', 'appium-version' : '4.1.2','driver.class':'io.appium.java_client.android.AndroidDriver'}
+
+
+
+com.jabong.android
+
+
+
+
+Search Results Page
+
+
+component		xpath= //android.widget.FrameLayout[@resource-id='com.jabong.android:id/fl_content']
+
+sort type 		xpath=//android.support.v7.app.a$c[@resource-id='com.jabong.android:id/rl_item_tab']
+
+		 xpath=//android.widget.TextView[@text()='Price: High to Low']
+
+product name 		xpath= //android.widget.TextView[@text='Monaco-S Tan Moccasins']
+				or
+			//android.widget.TextView[@resource-id='com.jabong.android:id/txtBrandName']
+
+Product price		xpath=//android.widget.TextView[@resource-id='com.jabong.android:id/txtPrice']
+
+
+
+resource-id	com.jabong.android:id/fl_content			android.widget.FrameLayout
+
+
+
+
+	@FindBy(locator = "link.productprice.resultspage")
+	private QAFWebElement linkProductpriceResultspage;
+	@FindBy(locator = "link.productname.resultspage")
+	private QAFWebElement linkProductnameResultspage;
+
+	public QAFWebElement getLinkProductpriceResultspage() {
+		return linkProductpriceResultspage;
+	}
+
+	public QAFWebElement getLinkProductnameResultspage() {
+		return linkProductnameResultspage;
+	}
+
+
+Shooping bag page 
+
+product name 	xpath=//android.widget.TextView[@text()='Clarks Folcroft Step Black Lifestyle Shoes']
+product price xpath=// android.widget.TextView[@text()='Rs.3900']
+
+
+
+
+
+product details page
+
+   product name      xpath= //android.widget.TextView[@resource-id='com.jabong.android:id/brand_name']
+product price        id=com.jabong.android:id/txtSplPrice
+
+addtobag        xpath=//android.widget.Button[@text()='ADD TO BAG']
+
+size   xpath=//	android.widget.TextView[@text()=%s]
+

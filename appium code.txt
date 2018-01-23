@@ -1,0 +1,12 @@
+platform:	Android
+device name	emulator-5554
+app package	com.flipkart.android
+appActivity	com.flipkart.android.activity.HomeFragmentHolderActivity
+
+
+
+
+C:\Users\venkatarami.reddy>adb shell
+umpsys window windows | grep -E 'mCurrentFocus|mFocusApp'                     <
+  mCurrentFocus=Window{5e0a616 u0 com.flipkart.android/com.flipkart.android.activity.HomeFragmentHolderActivity}
+root@generic_x86_64:/ # emulator-5554

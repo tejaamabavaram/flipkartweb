@@ -1,0 +1,4 @@
+Booties.detail.productname = {\"locator\":\"css=h1[class='_3eAQiD']\",\"desc\":\"product details productname\"}
+Booties.detail.productprice = {\"locator\":\"css=div[class='_1vC4OE _37U4_g']\",\"desc\":\"product details productprice\"}
+Booties.details.txtfld.pincode = {\"locator\":\"css=input[class='_3X4tVa']\",\"desc\":\"delivary pincode\"}
+Booties.detail.addToCart = {\"locator\":[\"css=button[class='_2AkmmA _2Npkh4 _2MWPVK']\",\"css=button[class='_2AkmmA _2Npkh4 _2MWPVK RpigiU']\"],\"desc\":\"Product details add to cart\"}

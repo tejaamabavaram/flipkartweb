@@ -1,0 +1,39 @@
+#
+1|root@generic_x86_64:/ # dumpsys window windows |grep -E 'mCurrentFocus|mFocusedApp'
+  mCurrentFocus=Window{f2e10ee u0 com.flipkart.android/com.flipkart.android.activity.MSignupActivity}
+  mFocusedApp=AppWindowToken{4c1be4a token=Token{60fa7b5 ActivityRecord{764f7ec u0 com.flipkart.android/.activity.MSignupActivity t31}}}
+root@generic_x86_64:/ #
+
+
+
+dumpsys window windows |grep -E 'mCurrentFocus|mFocusedApp'                    <
+  mCurrentFocus=Window{c9c1b84 u0 com.flipkart.android/com.flipkart.android.SplashActivity}
+  mFocusedApp=AppWindowToken{1dbaeb6 token=Token{7dea460 ActivityRecord{192a063 u0 com.flipkart.android/.SplashActivity t32}}}
+
+
+
+C:\Users\venkatarami.reddy>adb shell
+root@generic_x86:/ # dumpsys window windows |grep -E 'mCurrentFocus|mFocusedAp>
+  mCurrentFocus=Window{2472aed u0 com.jabong.android/com.jabong.android.view.activity.JabongMainActivity}
+  mFocusedApp=AppWindowToken{8b5e828 token=Token{d40f64b ActivityRecord{f62ab1a u0 com.jabong.android/.view.activity.JabongMainActivity t4}}}
+root@generic_x86:/ #
+
+
+\Users\venkatarami.reddy>adb shell
+sys window windows |grep -E 'mCurrentFocus|mFocusedApp'                       <
+  mCurrentFocus=Window{559190a u0 com.jabong.android/com.jabong.android.view.activity.JabongMainActivity}
+  mFocusedApp=AppWindowToken{e52881 token=Token{6480c68 ActivityRecord{170038b u0 com.jabong.android/.view.activity.JabongMainActivity t5}}}
+
+
+driver.name=appiumDriver
+appium.additional.capabilities={'browser_name':'','deviceName':'emulator-5554','platformName':'Android','automationName':'appium','appPackage':'com.flipkart.android','appActivity':'com.flipkart.android.activity.HomeFragmentHolderActivity','javascriptEnabled':'true', 'newCommandTimeout':'120', 'appium-version' : '4.1.2','driver.class':'io.appium.java_client.android.AndroidDriver'}
+
+
+
+
+
+root@generic_x86:/ #
+
+
+
+com.jabong.android:id/img_cross

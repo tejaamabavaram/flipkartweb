@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "end to end",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "Venkata_FlipkartOrderFllow",
+        "referece": "scenarios/Venkat_FlipkartOrderFlow.bdd",
+        "sign": "scenarios.Venkat_FlipkartOrderFlow.bdd.Venkata_FlipkartOrderFllow()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1515388392408,
+      "duration": 32298,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

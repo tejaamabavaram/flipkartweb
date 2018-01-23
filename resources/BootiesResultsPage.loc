@@ -1,0 +1,6 @@
+Booties.comp.prductinfo = {\"locator\":[\"css=div[class='_3liAhj']\",\"css=div[class='_3ycxrs']\"],\"desc\":\"Booties products component\"}
+Booties.link.itemsfilter = {\"locator\":\"xpath=//li[@class='_2Ylh8t']\",\"desc\":\"Booties products filter\"}
+Booties.dropdown.minprice = {\"locator\":\"xpath=(//select[@class='a_eCSK'])[1]\",\"desc\":\"products min price range\"}
+Booties.dropdown.maxprice = {\"locator\":\"xpath=(//select[@class='a_eCSK'])[2]\",\"desc\":\"products max price range\"}
+Booties.link.productname = {\"locator\":[\"css=a[class='_2cLu-l']\",\"css=div[class='_1Ox9a7']\"],\"desc\":\"Bootie product name\"}
+Booties.link.productprice = {\"locator\":[\"css=div[class='_1vC4OE']\",\"css=div[class='I8hxu4']\"],\"desc\":\"Bootie product price\"}

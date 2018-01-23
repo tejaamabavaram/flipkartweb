@@ -1,0 +1,13 @@
+{
+  "name": "web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd",
+  "status": "fail",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 2,
+  "pass": 1,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1516105232742,
+  "endTime": 1516105288637
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+              <span class="suite-name border-failed">web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                    <span>C:\Users\venkatarami.reddy\AppData\Local\Temp\testng-eclipse--1654604278\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="hide-methods failed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd"> (hide)</a> <!-- hide-methods failed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+                      <a href="#" panel-name="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="show-methods failed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd"> (show)</a> <!-- show-methods failed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+                    </span>
+                    <div class="method-list-content failed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Venkat_DataDriven({submenu=Sport Shoes, minprice=400, maxpice=600, sortby=Price -- High to Low, productnum=2, pincode=...)">Venkat_DataDriven({submenu=Sport Shoes, minprice=400, maxpice=600, sortby=Price -- High to Low, productnum=2, pincode=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="hide-methods passed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd"> (hide)</a> <!-- hide-methods passed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+                      <a href="#" panel-name="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="show-methods passed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd"> (show)</a> <!-- show-methods passed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+                    </span>
+                    <div class="method-list-content passed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="Venkat_DataDriven({submenu=Booties, minprice=200, maxpice=400, sortby=Price -- High to Low, productnum=2, pincode=5600...)">Venkat_DataDriven({submenu=Booties, minprice=200, maxpice=400, sortby=Price -- High to Low, productnum=2, pincode=5600...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="panel web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+          <div class="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Venkat_DataDriven({submenu=Sport Shoes, minprice=400, maxpice=600, sortby=Price -- High to Low, productnum=2, pincode=...)">
+                  </a> <!-- Venkat_DataDriven({submenu=Sport Shoes, minprice=400, maxpice=600, sortby=Price - High to Low, productnum=2, pincode=...) -->
+                  <span class="method-name">Venkat_DataDriven</span>
+                  <span class="parameters">({submenu=Sport Shoes, minprice=400, maxpice=600, sortby=Price -- High to Low, productnum=2, pincode=560064})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 600
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12225&apos;, ip: &apos;10.11.31.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: unknown
+	at .When user sets ${minprice} and ${maxpice} price(scenarios/Venkat_FlipkartOrderFlow.bdd:8)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:208)
+	at com.web_flipkart.pages.BootiesresultsTestPage.setPriceMaxRange(BootiesresultsTestPage.java:61)
+	at com.web_flipkart.StepsBackLog.userSetsAndPrice(StepsBackLog.java:55)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+
+</div> <!-- stack-trace -->
+                  <em>
+(end to end)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd-class-failed -->
+          <div class="suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Venkat_DataDriven({submenu=Booties, minprice=200, maxpice=400, sortby=Price -- High to Low, productnum=2, pincode=5600...)">
+                  </a> <!-- Venkat_DataDriven({submenu=Booties, minprice=200, maxpice=400, sortby=Price - High to Low, productnum=2, pincode=5600...) -->
+                  <span class="method-name">Venkat_DataDriven</span>
+                  <span class="parameters">({submenu=Booties, minprice=200, maxpice=400, sortby=Price -- High to Low, productnum=2, pincode=560064})</span>
+                  <em>
+(end to end)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd-class-passed -->
+        </div> <!-- panel web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+        <div panel-name="test-xml-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\venkatarami.reddy\AppData\Local\Temp\testng-eclipse--1654604278\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd&quot;&gt;
+  &lt;parameter name=&quot;scenario.file.loc&quot; value=&quot;scenarios/Venkat_FlipkartOrderFlow.bdd&quot;/&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;BDD Test&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;1&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.text.BDDTestFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BDD Test --&gt;
+&lt;/suite&gt; &lt;!-- web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BDD Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">P1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Venkat_DataDriven</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">P2</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Venkat_DataDriven</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SMOKE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Venkat_DataDriven</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd');
+function tableData_web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Venkat_DataDriven')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(0, 3, 46372);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Venkat_DataDriven')
+data.setCell(1, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(1, 3, 8915);
+window.suiteTableData['web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd']= { tableData: data, tableDiv: 'times-div-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <div id="times-div-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd">
+              </div> <!-- times-div-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Venkat_DataDriven({submenu=Booties, minprice=200, maxpice=400, sortby=Price -- High to Low, productnum=2, pincode=5600...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_y3dvqq9dmcyd44355.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Booties from 'Baby & Kids' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_ylcxvotk98oz44356.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user sets 200 and 400 price</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selets price Price -- High to Low</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product less than max value</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select 2 product from product results</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Love Crochet Art Booties"
+     Actual: was "Love Crochet Art Booties  (Toe to Heel Length - 9 cm Pink)" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_i4gezj6rq8uj44357.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹239"
+     Actual: was "₹239" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_13rwt3416dboh44358.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user check for the delivery 560064</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Venkat_DataDriven({submenu=Sport Shoes, minprice=400, maxpice=600, sortby=Price -- High to Low, productnum=2, pincode=...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_1b4wkm7lcgmv944359.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Sport Shoes from 'Baby & Kids' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_1qumo6f9wvinz44360.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When user sets 400 and 600 price <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_12l3fjslsyl8744361.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Cannot locate option with value: 600
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>And user selets price ${sortby}</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see only product less than max value</div><div  class="teststep"><span class="teststep-label">T </span>When user select ${productnum} product from product results</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see product details matching correctly</div><div  class="teststep"><span class="teststep-label">T </span>When user check for the delivery ${pincode}</div><div  class="teststep"><span class="teststep-label">T </span>And user selects add to cart</div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to the cart</div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Venkat_DataDriven</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@51399530)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@51399530)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@51399530)</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Venkat_DataDriven({submenu=Booties, minprice=200, maxpice=400, sortby=Price -- High to Low, productnum=2, pincode=5600...)</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@51399530, [TestResult name=Venkat_DataDriven status=SUCCESS method=scenarios.V...)</span>
+                <span class="method-start">46445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">46446 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Venkat_DataDriven({submenu=Sport Shoes, minprice=400, maxpice=600, sortby=Price -- High to Low, productnum=2, pincode=...)</span>
+                <span class="method-start">46447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@51399530, [TestResult name=Venkat_DataDriven status=FAILURE method=scenarios.V...)</span>
+                <span class="method-start">55620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@51399530)</span>
+                <span class="method-start">55621 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@51399530)</span>
+                <span class="method-start">55622 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@51399530)</span>
+                <span class="method-start">55852 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
