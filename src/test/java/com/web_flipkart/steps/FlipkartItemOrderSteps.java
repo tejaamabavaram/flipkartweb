@@ -31,6 +31,7 @@ public class FlipkartItemOrderSteps {
 		bootiesdetailspage.enterPincode("410509");
 		bootiesdetailspage .selectAddToCart();
 		
+		//Cart Details Page
 		CartTestPage cartpage = new CartTestPage();
 		cartpage.selectDeliveryDetails();
 		
