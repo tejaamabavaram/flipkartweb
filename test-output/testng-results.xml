@@ -1,260 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
 Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
-     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_y3dvqq9dmcyd44355.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Booties from 'Baby & Kids' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/testItemOrderSteps_1pkc6hsbzuek5587.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
 Expected: a value greater than &lt;0&gt;
-     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_ylcxvotk98oz44356.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user sets 200 and 400 price</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selets price Price -- High to Low</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product less than max value</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select 2 product from product results</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="../img/testItemOrderSteps_ed7klod2mjzp5588.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
 Expected: a string containing "Love Crochet Art Booties"
-     Actual: was "Love Crochet Art Booties  (Toe to Heel Length - 9 cm Pink)" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_i4gezj6rq8uj44357.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
-Expected: a string containing "₹239"
-     Actual: was "₹239" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_13rwt3416dboh44358.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user check for the delivery 560064</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div></div>]]>
-    </line>
-    <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
-Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
-     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_1b4wkm7lcgmv944359.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Sport Shoes from 'Baby & Kids' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value greater than &lt;0&gt;
-     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_1qumo6f9wvinz44360.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When user sets 400 and 600 price <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_12l3fjslsyl8744361.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Cannot locate option with value: 600
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>And user selets price ${sortby}</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see only product less than max value</div><div  class="teststep"><span class="teststep-label">T </span>When user select ${productnum} product from product results</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see product details matching correctly</div><div  class="teststep"><span class="teststep-label">T </span>When user check for the delivery ${pincode}</div><div  class="teststep"><span class="teststep-label">T </span>And user selects add to cart</div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to the cart</div></div>]]>
+     Actual: was "Love Crochet Art Booties  (Toe to Heel Length - 10 cm Blue)" <a href="../img/testItemOrderSteps_1i4udexmnxkob5589.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹249"
+     Actual: was "₹249" <a href="../img/testItemOrderSteps_c8qxwj8b0gom5590.png" target="_blank">[View Screenshot]</a> </div></div>]]>
     </line>
   </reporter-output>
-  <suite name="web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd" duration-ms="55766" started-at="2018-01-16T12:20:32Z" finished-at="2018-01-16T12:21:28Z">
+  <suite name="Default suite" duration-ms="26904" started-at="2018-01-24T04:55:59Z" finished-at="2018-01-24T04:56:26Z">
     <groups>
-      <group name="P1">
-        <method signature="scenarios.Venkat_FlipkartOrderFlow.bdd.Venkat_DataDriven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="Venkat_DataDriven" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
-      </group> <!-- P1 -->
-      <group name="P2">
-        <method signature="scenarios.Venkat_FlipkartOrderFlow.bdd.Venkat_DataDriven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="Venkat_DataDriven" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
-      </group> <!-- P2 -->
-      <group name="SMOKE">
-        <method signature="scenarios.Venkat_FlipkartOrderFlow.bdd.Venkat_DataDriven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="Venkat_DataDriven" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
-      </group> <!-- SMOKE -->
     </groups>
-    <test name="BDD Test" duration-ms="55766" started-at="2018-01-16T12:20:32Z" finished-at="2018-01-16T12:21:28Z">
-      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
-        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="setupSuit" is-config="true" duration-ms="16" started-at="2018-01-16T17:50:32Z" finished-at="2018-01-16T17:50:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupSuit -->
-        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="setupTest" is-config="true" duration-ms="1" started-at="2018-01-16T17:50:32Z" finished-at="2018-01-16T17:50:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="setup" is-config="true" duration-ms="1" started-at="2018-01-16T17:50:32Z" finished-at="2018-01-16T17:50:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-01-16T17:50:32Z" finished-at="2018-01-16T17:50:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method name="Venkat_DataDriven" test-instance-name="Venkat_DataDriven" signature="Venkat_DataDriven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="46372" finished-at="2018-01-16T17:51:19Z" started-at="2018-01-16T17:50:32Z" data-provider="scenariodp" description="end to end">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{submenu=Booties, minprice=200, maxpice=400, sortby=Price -- High to Low, productnum=2, pincode=560064}]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="26904" started-at="2018-01-24T04:55:59Z" finished-at="2018-01-24T04:56:26Z">
+      <class name="com.web_flipkart.steps.FlipkartItemOrderSteps">
+        <test-method status="PASS" signature="testItemOrderSteps()[pri:0, instance:com.web_flipkart.steps.FlipkartItemOrderSteps@70be0a2b]" name="testItemOrderSteps" duration-ms="26842" started-at="2018-01-24T10:25:59Z" finished-at="2018-01-24T10:26:26Z">
           <reporter-output>
             <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
 Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
-     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_y3dvqq9dmcyd44355.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Booties from 'Baby & Kids' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/testItemOrderSteps_1pkc6hsbzuek5587.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
 Expected: a value greater than &lt;0&gt;
-     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_ylcxvotk98oz44356.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user sets 200 and 400 price</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selets price Price -- High to Low</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product less than max value</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select 2 product from product results</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="../img/testItemOrderSteps_ed7klod2mjzp5588.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
 Expected: a string containing "Love Crochet Art Booties"
-     Actual: was "Love Crochet Art Booties  (Toe to Heel Length - 9 cm Pink)" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_i4gezj6rq8uj44357.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
-Expected: a string containing "₹239"
-     Actual: was "₹239" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_13rwt3416dboh44358.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user check for the delivery 560064</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div></div>]]>
+     Actual: was "Love Crochet Art Booties  (Toe to Heel Length - 10 cm Blue)" <a href="../img/testItemOrderSteps_1i4udexmnxkob5589.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹249"
+     Actual: was "₹249" <a href="../img/testItemOrderSteps_c8qxwj8b0gom5590.png" target="_blank">[View Screenshot]</a> </div></div>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Venkat_DataDriven -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-16T17:51:19Z" finished-at="2018-01-16T17:51:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=Venkat_DataDriven status=SUCCESS method=scenarios.Venkat_FlipkartOrderFlow.bdd.Venkat_DataDriven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
-Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
-     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_y3dvqq9dmcyd44355.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Booties from 'Baby & Kids' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value greater than &lt;0&gt;
-     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_ylcxvotk98oz44356.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user sets 200 and 400 price</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selets price Price -- High to Low</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product less than max value</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select 2 product from product results</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a string containing "Love Crochet Art Booties"
-     Actual: was "Love Crochet Art Booties  (Toe to Heel Length - 9 cm Pink)" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_i4gezj6rq8uj44357.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
-Expected: a string containing "₹239"
-     Actual: was "₹239" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_13rwt3416dboh44358.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user check for the delivery 560064</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div></div>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-01-16T17:51:19Z" finished-at="2018-01-16T17:51:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method name="Venkat_DataDriven" test-instance-name="Venkat_DataDriven" signature="Venkat_DataDriven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="FAIL" duration-ms="8915" finished-at="2018-01-16T17:51:28Z" started-at="2018-01-16T17:51:19Z" data-provider="scenariodp" description="end to end">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{submenu=Sport Shoes, minprice=400, maxpice=600, sortby=Price -- High to Low, productnum=2, pincode=560064}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate option with value: 600
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 600
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: driver.version: unknown
-	at .When user sets ${minprice} and ${maxpice} price(scenarios/Venkat_FlipkartOrderFlow.bdd:8)
-	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:208)
-	at com.web_flipkart.pages.BootiesresultsTestPage.setPriceMaxRange(BootiesresultsTestPage.java:61)
-	at com.web_flipkart.StepsBackLog.userSetsAndPrice(StepsBackLog.java:55)
-	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
-	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
-	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
-	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
-	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
-Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
-     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_1b4wkm7lcgmv944359.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Sport Shoes from 'Baby & Kids' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value greater than &lt;0&gt;
-     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_1qumo6f9wvinz44360.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When user sets 400 and 600 price <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_12l3fjslsyl8744361.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Cannot locate option with value: 600
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>And user selets price ${sortby}</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see only product less than max value</div><div  class="teststep"><span class="teststep-label">T </span>When user select ${productnum} product from product results</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see product details matching correctly</div><div  class="teststep"><span class="teststep-label">T </span>When user check for the delivery ${pincode}</div><div  class="teststep"><span class="teststep-label">T </span>And user selects add to cart</div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to the cart</div></div>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Venkat_DataDriven -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-16T17:51:28Z" finished-at="2018-01-16T17:51:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=Venkat_DataDriven status=FAILURE method=scenarios.Venkat_FlipkartOrderFlow.bdd.Venkat_DataDriven( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>FlipKartHomePage verification
-Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
-     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_1b4wkm7lcgmv944359.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Sport Shoes from 'Baby & Kids' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value greater than &lt;0&gt;
-     Actual: &lt;40&gt; was greater than &lt;0&gt; <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_1qumo6f9wvinz44360.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststepfail"><span class="teststepfail-label">T </span>When user sets 400 and 600 price <a href="test-results/16_Jan_2018_05_50_PM/img/Venkat_DataDriven_12l3fjslsyl8744361.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Cannot locate option with value: 600
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'ICPL12225', ip: '10.11.31.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: driver.version: unknown</div></div><div  class="teststep"><span class="teststep-label">T </span>And user selets price ${sortby}</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see only product less than max value</div><div  class="teststep"><span class="teststep-label">T </span>When user select ${productnum} product from product results</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see product details matching correctly</div><div  class="teststep"><span class="teststep-label">T </span>When user check for the delivery ${pincode}</div><div  class="teststep"><span class="teststep-label">T </span>And user selects add to cart</div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to the cart</div></div>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="afterClass" is-config="true" duration-ms="0" started-at="2018-01-16T17:51:28Z" finished-at="2018-01-16T17:51:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="afterTest" is-config="true" duration-ms="161" started-at="2018-01-16T17:51:28Z" finished-at="2018-01-16T17:51:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="Venkat_DataDriven" name="afterSuit" is-config="true" duration-ms="1" started-at="2018-01-16T17:51:28Z" finished-at="2018-01-16T17:51:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@51399530]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuit -->
-      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
-    </test> <!-- BDD Test -->
-  </suite> <!-- web_flipkart.scenarios.Venkat_FlipkartOrderFlow.bdd -->
+        </test-method> <!-- testItemOrderSteps -->
+      </class> <!-- com.web_flipkart.steps.FlipkartItemOrderSteps -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
