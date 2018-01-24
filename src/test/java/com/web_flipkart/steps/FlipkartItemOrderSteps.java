@@ -25,7 +25,7 @@ public class FlipkartItemOrderSteps {
 		bootiesresultpage.selectBootiesFilter("Price -- High to Low");
 		bootiesresultpage.selectProductName(2);
 		
-		
+		/// Booties Page
 		BootiesdetailsTestPage bootiesdetailspage = new BootiesdetailsTestPage();
 		bootiesdetailspage.verifyBootieProductsDetails();
 		bootiesdetailspage.enterPincode("410509");
